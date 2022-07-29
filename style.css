@@ -1,0 +1,130 @@
+.container{
+    padding: 50px 50px 50px 50px;
+}
+.list-item{
+    float: left;
+    font-family: Orbitron;
+    margin-left: 40px;
+    
+    text-underline-offset: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+.main{
+    
+    font-weight: bolder;
+}
+.main::after{
+    content: '';
+  position: absolute;
+  right: 405px;
+  width: 50px;
+  border-radius: 10px;
+  display: block;
+  height: 5px;
+  background-color: black;
+  bottom: -5px;
+
+  
+}
+.navbar-container{
+    width: 100%;
+    height: 100px;
+}
+ul.list {
+    left: 450px;
+    position: absolute;
+    top: 60px;
+    float: right;
+}
+li::marker {
+    content: ' ';
+    font-size: 1.2em;
+    position: absolute;
+    left: 511px;
+}
+.square{
+    position: absolute;
+    top: 380px;
+    left: 190px;
+}
+.search-icon{
+    position: absolute;
+    top: 75px;
+    left: 1250px;
+}
+button.nav-button {
+    position: absolute;
+    top: 75px;
+    left: 1300px;
+}
+.hero-container-right {
+    float: right;
+    width: 800px;
+    text-align: center;
+    font-family: Poppins;
+}
+.hero-heading{
+    font-family: Orbitron;
+    padding: 35px;
+    font-size: xxx-large;
+
+}
+p.hero-description{
+    padding: 25px;
+    padding-top: unset;
+    padding-bottom: 60px;
+    color: grey;
+}
+
+button.nav-button {
+    border-radius:10px ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: white;
+    font-family: 'Poppins';
+    font-size: large;
+}
+button.button-email {
+    border-radius: 7px;
+    background: white;
+    font-size: medium;
+    font-family: 'Orbitron';
+    padding-left: 15px;
+    padding-right: 15px;
+    color: gray;
+}
+
+button.button-join {
+    border-radius: 7px;
+    font-size: medium;
+    font-family: 'Orbitron';
+    background: black;
+    color: white;
+    margin-left: 10px;
+}
+h4.contact-heading {
+    padding-top: 80px;
+    color: gray;
+    
+    font-weight: 500;
+}
+span.globe {
+    left: 820px;
+    top: 140px;
+    position: absolute;
+}
+.globe > img{
+    width:50px
+}  
+span.star {
+    position: absolute;
+    left: 500px;
+    bottom: 25px;
+}
+.star >img{
+    width:35px
+}
